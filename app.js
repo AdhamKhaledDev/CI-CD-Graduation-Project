@@ -99,7 +99,7 @@ const hardWords = [
   
   // Setting Levels
   const lvls = {
-    "Easy": 5,
+    "Nope": 5,
     "Normal": 4,
     "Hard": 4
   };
