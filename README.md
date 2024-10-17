@@ -43,18 +43,11 @@ Our CI/CD pipeline automates the process of building, testing, and deploying the
 - **Adham Khaled**: [https://www.linkedin.com/in/adham-khaalid](#)
 - **Gerges**: [https://www.linkedin.com/in/gerges-zechariah](#)
 
-## Project Resources
-
-- **[Project Demo Video](#)**: [Original demo link: https://youtu.be/r00dhz494ac]
-- **[Project Blog Article](#)**: [Original blog link: https://www.linkedin.com/posts/gerges-zechariah_alx-activity-7216937002976346112-3vuF]
 
 ## Project Playbook
 
 - **Google Slides**: [https://docs.google.com/presentation/d/1tP15kc1J0kRrlpQmgYDdexQEY_47xDZGt0MCNuYH8iw/edit?usp=sharing](#)
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
