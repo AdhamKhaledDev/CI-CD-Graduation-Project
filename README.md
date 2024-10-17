@@ -41,7 +41,7 @@ Our CI/CD pipeline automates the process of building, testing, and deploying the
 ## Team Members
 
 - **Adham Khaled**: [https://www.linkedin.com/in/adham-khaalid](#)
-- **Gerges**: [https://www.linkedin.com/in/gerges-zechariah](#)
+- **Gerges Zechariah**: [https://www.linkedin.com/in/gerges-zechariah](#)
 
 
 ## Project Playbook
