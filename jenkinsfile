@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'GitHub', url: 'https://github.com/AdhamKhaledDev/CI-CD-Graduation-Project/']])
+            }
+        }
+
+        stage('Deploy to Server') {
+            steps {
+                sshagent(['speed-test']) {
+                    sh '''
+                        ssh -o StrictHostKeyChecking=no root@143.198.126.167 '
+                            set -e
+                            cd /home
+                            if [ ! -d "CI-CD-Graduation-Project" ]; then
+                                git clone https://github.com/AdhamKhaledDev/CI-CD-Graduation-Project
+                            fi
+                            cd CI-CD-Graduation-Project
+                            git pull
+                            docker build -t myapp:latest .
+                            docker rm -f myapp_container || true
+                            docker run -d -p 80:80 --name myapp_container myapp:latest
+                        '
+                    '''
+                }
+            }
+        }
+    }
+}
