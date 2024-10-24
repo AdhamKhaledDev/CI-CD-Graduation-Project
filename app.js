@@ -9,7 +9,7 @@
   [02] Add Styling And Separate From Logic
   [03] Create The App Logic
   ---- [01] Add Levels
-  ---- [02] Show Level And Seconds
+  ----- [02] Show Level And Seconds
   ---- [03] Add Array Of Words
   ---- [04] ِAdd Start Game Button
   ---- [05] Generate Upcoming Words
