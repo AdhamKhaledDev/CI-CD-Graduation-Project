@@ -16,6 +16,6 @@ EXPOSE 80
 # Install a basic HTTP server globally
 RUN npm install -g http-server
 
-# Start the server to serve the files on port 80
+# Start the server to serve the files on port "80
 CMD ["http-server", "-p", "80"]
 
